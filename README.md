@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Expert Wood Flooring - Complete Next.js Website
 
-## Getting Started
+## Overview
+This is a complete Next.js website for Expert Wood Flooring, a premium hardwood flooring company with 20 years of experience, specializing in residential, commercial, and gym floor services including installation, repair, scrape, sand & refinish. Call 929-235-6311 for free estimates.
 
-First, run the development server:
+## Features
+- **Modern Design**: Built with Next.js 14, TypeScript, and Tailwind CSS
+- **Responsive Layout**: Mobile-first design that works on all devices
+- **Component-Based Architecture**: Modular components for easy maintenance
+- **SEO Optimized**: Proper metadata and structured content
+- **Fast Performance**: Optimized for speed and user experience
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Pages
+- **Home**: Hero section, services overview, gallery, testimonials, contact form
+- **Services**: Detailed hardwood flooring services
+- **Gallery**: Portfolio of completed projects with filtering
+- **About**: Company story and values
+- **Contact**: Contact form and business information
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Components
+- Header with responsive navigation
+- Hero with image carousel
+- Services grid with icons and descriptions
+- Gallery with category filtering and lightbox
+- Testimonials from satisfied customers
+- Contact form with validation
+- Footer with links and social media
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Customization for Wood Flooring
+- **Highlights**: 20 Years of Experience, Residential, Commercial, Gym floors
+- **Services**: Installation, Repair, Scrape, Sand & Refinish
+- Focus on hardwood types: oak, walnut, hickory, ash
+- Emphasis on sustainability and eco-friendly practices
+- Room inspiration and design consultation services
+- Premium quality craftsmanship messaging
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Setup Instructions
 
-## Learn More
+1. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Add Images**:
+   Place the following images in `public/images/`:
+   - `logo.png` - Company logo (50x50px recommended)
+   - `hero-oak-hardwood.jpg` - Oak hardwood hero image
+   - `hero-walnut-hardwood.jpg` - Walnut hardwood hero image
+   - `hero-hickory-hardwood.jpg` - Hickory hardwood hero image
+   - `hero-ash-hardwood.jpg` - Ash hardwood hero image
+   - Service images (service-*.jpg)
+   - Gallery images (gallery-*.jpg)
+   - Testimonial images (testimonial-*.jpg)
+   - `og-image.jpg` - Open Graph image for social sharing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Update Content**:
+   - Edit contact information in components and pages (phone: 929-235-6311)
+   - Customize testimonials and services
+   - Update business hours and service areas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Run Development Server**:
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+5. **Build for Production**:
+   ```bash
+   npm run build
+   npm start
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Color Scheme
+- Primary: Amber (#D97706) for CTAs and accents
+- Background: White and light gray
+- Text: Dark gray for readability
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Technologies Used
+- **Next.js 14**: React framework with App Router
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Utility-first styling
+- **ESLint**: Code quality and consistency
+
+## Deployment
+Ready for deployment on Vercel, Netlify, or any Node.js hosting platform.
+
+## Contact Form
+The contact form currently logs submissions to console. To make it functional:
+1. Set up a backend API endpoint
+2. Configure email service (e.g., Nodemailer with SMTP)
+3. Add form validation and spam protection
+
+## Image Optimization
+All images use Next.js Image component for automatic optimization, lazy loading, and responsive sizing.
+
+## Scripts
+- `npm run dev`: Start the development server
+- `npm run build`: Build the application for production
+- `npm run start`: Start the production server
+- `npm run lint`: Run ESLint for code quality checks
+
+## Dependencies
+### Production
+- **Next.js**: 16.1.6 - React framework
+- **React**: 19.2.3 - UI library
+- **React DOM**: 19.2.3 - React rendering
+- **clsx**: 2.1.1 - Utility for conditional CSS classes
+- **tailwind-merge**: 3.4.0 - Tailwind CSS utility merger
+
+### Development
+- **TypeScript**: 5.x - Type-safe JavaScript
+- **Tailwind CSS**: 4.x - Utility-first CSS framework
+- **ESLint**: 9.x - Code linting
+- **@types/node**: 20.x - Node.js types
+- **@types/react**: 19.x - React types
+- **@types/react-dom**: 19.x - React DOM types
+
+## Contributing
+We welcome contributions! To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please ensure your code follows our coding standards and includes tests where applicable.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+For questions or support, please contact us at 929-235-6311 or email support@expertwoodflooring.com.
