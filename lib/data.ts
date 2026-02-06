@@ -37,42 +37,42 @@ export const testimonials: Testimonial[] = [
     company: 'Homeowner',
     message: 'Expert Wood Flooring transformed our entire home with beautiful oak hardwood. The attention to detail and quality craftsmanship is unmatched. Our floors look stunning and feel luxurious underfoot.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face&auto=format&q=80'
+    image: '/images/avatar-1.svg'
   },
   {
     name: 'Michael Chen',
     company: 'Architect',
     message: 'As an architect, I appreciate their expertise in sustainable hardwood sourcing. The walnut floors they installed in our project space exceeded all expectations for both aesthetics and durability.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face&auto=format&q=80'
+    image: '/images/avatar-2.svg'
   },
   {
     name: 'Jennifer Rodriguez',
     company: 'Interior Designer',
     message: 'Their refinishing work on our client\'s century-old hickory floors was exceptional. They preserved the character of the wood while modernizing the finish. Truly premium quality work.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face&auto=format&q=80'
+    image: '/images/avatar-3.svg'
   },
   {
     name: 'David Thompson',
     company: 'Property Developer',
     message: 'Expert Wood Flooring delivered on time and within budget for our multi-unit project. Their ash flooring installation was flawless, and the sustainable practices align perfectly with our green building initiatives.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face&auto=format&q=80'
+    image: '/images/avatar-4.svg'
   },
   {
     name: 'Lisa Park',
     company: 'Homeowner',
     message: 'The room inspiration consultation was invaluable. They helped us choose the perfect hardwood that complements our modern farmhouse style. The installation was seamless and professional.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face&auto=format&q=80'
+    image: '/images/avatar-5.svg'
   },
   {
     name: 'Robert Williams',
     company: 'Restaurant Owner',
     message: 'Our restaurant\'s hardwood floors needed urgent repair. Expert Wood Flooring restored them beautifully, maintaining the warm ambiance our customers love while ensuring durability for high-traffic areas.',
     rating: 5,
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face&auto=format&q=80'
+    image: '/images/avatar-6.svg'
   }
 ]
 
